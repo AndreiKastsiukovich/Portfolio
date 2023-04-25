@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Work.module.css'
 
 type WorkPropsType = {
+    style:object
     name:string,
     description:string
 }
@@ -10,15 +11,14 @@ export const Work = (props:WorkPropsType) => {
     return (
         <div className={style.work}>
 
-            <div className={style.image}>
-                <a href="">
-                    <h2>Watch</h2>
-                </a>
+            <div className={style.image} style={props.style}>
+                <a className={style.link} href="">Watch project</a>
+            </div>
+            <div className={style.workInfo}>
+                <h3 className={style.title}>{props.name}</h3>
+                <span className={style.description}>{props.description}</span>
             </div>
 
-            <h4>{props.name}</h4>
-
-            <span>{props.description}</span>
 
         </div>
     );
