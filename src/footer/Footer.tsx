@@ -1,7 +1,7 @@
 import React from 'react';
 import styleContainer from '../common/styles/Container.module.css'
 import style from './Footer.module.css'
-import {Link} from "./Links/Link";
+import {Icon} from "./Links/Icon";
 
 export const Footer = () => {
     return (
@@ -12,10 +12,10 @@ export const Footer = () => {
                 <h2 className={style.title}> Andrew Gulliwer</h2>
 
                 <div className={style.links}>
-                    <Link/>
-                    <Link/>
-                    <Link/>
-                    <Link/>
+                    <Icon/>
+                    <Icon/>
+                    <Icon/>
+                    <Icon/>
                 </div>
 
                 <h3 className={style.bottomTitle}>2023 All rights reserved</h3>

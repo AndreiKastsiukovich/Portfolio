@@ -9,13 +9,13 @@ export const MyWorks = () => {
 
             <div className={`${styleContainer.container} ${style.myWorksContainer}`}>
 
-                <h2 className={style.title}>My works</h2>
+                <div className={style.title}>
+                    <h2>My projects</h2>
+                </div>
 
                 <div className={style.works}>
-
-                    <Work name={'SAMURAY WAY'} description={'PROJECT 1'}/>
-                    <Work name={'TODOLIST'} description={'PROJECT 2'}/>
-
+                    <Work name={'Social network'} description={'PROJECT 1'}/>
+                    <Work name={'Todolist'} description={'PROJECT 2'}/>
                 </div>
 
             </div>

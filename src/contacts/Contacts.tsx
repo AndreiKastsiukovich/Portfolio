@@ -11,17 +11,11 @@ export const Contacts = () => {
                 <h2 className={style.title}> Contacts </h2>
 
                     <form className={style.form}>
-                        <input type={"text"} className={style.input}/>
-                        <input type={"text"} className={style.input}/>
-                        <textarea className={style.textarea}/>
+                        <input type={"text"}/>
+                        <input type={"text"}/>
+                        <textarea/>
+                        <button type='submit' className={style.sendButton}>Send form</button>
                     </form>
-
-                <div className={style.send}>
-                    <a href="">
-                        <h2>Send</h2>
-                    </a>
-                </div>
-
 
             </div>
 

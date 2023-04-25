@@ -14,9 +14,8 @@ export const Main = () => {
                     <h1>I am Andrew Gulliver</h1>
                     <p>React/Frontend developer</p>
                 </div>
-
                 <div className={style.photo}>
-
+                    PHOTO
                 </div>
 
             </div>

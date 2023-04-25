@@ -14,22 +14,21 @@
 
 
 .form{
-    width: 280px;
-    height: 150px;
+    /*width: 280px;*/
+    /*height: 150px;*/
+    width: 50%;
     background-color: darkgrey;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
 }
 
-.input{
-
+.form input,.form textarea{
+    width: 100%;
 }
 
-.textarea{
 
-}
-
-.send{
-
+.sendButton{
+    padding: 10px 20px;
+    background-color: #35c59a;
 }
