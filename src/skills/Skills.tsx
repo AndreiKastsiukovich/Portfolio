@@ -13,9 +13,10 @@ export const Skills = () => {
                 <Title title={'My skills'}/>
 
                 <div className={style.skills}>
-                    <Skill title={'JS'} description={'JS DEVELOPER'}/>
-                    <Skill title={'CSS'} description={'CSS DEVELOPER'}/>
-                    <Skill title={'REACT'} description={'REACT DEVELOPER'}/>
+                    <Skill title={'JS'} description={'I am Java Script developer'}/>
+                    <Skill title={'REDUX'} description={'I am Redux developer'}/>
+                    <Skill title={'REACT'} description={'I am React developer'}/>
+                    <Skill title={'HTML/CSS'} description={'I am HTML/CSS developer'}/>
                 </div>
 
             </div>
