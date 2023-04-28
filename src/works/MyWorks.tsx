@@ -1,6 +1,6 @@
 import React from "react";
 import styleContainer from '../common/styles/Container.module.css'
-import style from './MyWorks.module.css'
+import style from './MyWorks.module.scss'
 import {Work} from "./work/Work";
 import {Title} from "../common/components/title/Title";
 import todoImage from '../assets/image/todoimg.jpeg'
