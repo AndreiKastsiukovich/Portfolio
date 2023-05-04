@@ -12,7 +12,15 @@ export const Main = () => {
                 <div className={style.text}>
                     <span>Hi There</span>
                     <h1>I am Andrew Gulliver</h1>
-                    <p>React/Frontend developer</p>
+                    <p>I'm frontend developer with
+                        experience in creating SPA using
+                        React, Redux, TypeScript.
+                        Knowledge in user interface,
+                        testing, and debugging processes. I
+                        improving my skills in this direction
+                        and plan to expand them with new
+                        technologies, such as Angular.
+                        Open to your suggestions.</p>
                 </div>
                 <div className={style.photo}>
                     PHOTO
