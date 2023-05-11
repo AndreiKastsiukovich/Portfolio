@@ -1,10 +1,13 @@
 import React from "react";
-import style from './Skills.module.css'
+import style from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
 
+
 export const Skills = () => {
+
+
     return (
         <div className={style.skillsBlock}>
 
@@ -13,10 +16,18 @@ export const Skills = () => {
                 <Title title={'My skills'}/>
 
                 <div className={style.skills}>
-                    <Skill title={'JS'} description={'I am Java Script developer'}/>
-                    <Skill title={'REDUX'} description={'I am Redux developer'}/>
-                    <Skill title={'REACT'} description={'I am React developer'}/>
-                    <Skill title={'HTML/CSS'} description={'I am HTML/CSS developer'}/>
+                    <Skill title={'React'} description={''}/>
+                    <Skill title={'Redux'} description={''}/>
+                    <Skill title={'Typescript'} description={''}/>
+                    <Skill title={'Javascript'} description={''}/>
+                    <Skill title={'Axios'} description={''}/>
+                    <Skill title={'Material-UI'} description={''}/>
+                    <Skill title={'Storybook'} description={''}/>
+                    <Skill title={'Unit-test'} description={''}/>
+                    <Skill title={'GIT'} description={''}/>
+                    <Skill title={'HTML / CSS'} description={''}/>
+                    <Skill title={'SASS'} description={''}/>
+                    <Skill title={'REST API'} description={''}/>
                 </div>
 
             </div>
