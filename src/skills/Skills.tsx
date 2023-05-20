@@ -18,8 +18,8 @@ export const Skills = () => {
                 <div className={style.skills}>
                     <Skill title={'React'} description={''}/>
                     <Skill title={'Redux'} description={''}/>
-                    <Skill title={'Typescript'} description={''}/>
-                    <Skill title={'Javascript'} description={''}/>
+                    <Skill title={'TypeScript'} description={''}/>
+                    <Skill title={'JavaScript'} description={''}/>
                     <Skill title={'Axios'} description={''}/>
                     <Skill title={'Material-UI'} description={''}/>
                     <Skill title={'Storybook'} description={''}/>
