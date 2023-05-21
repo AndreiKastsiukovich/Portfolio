@@ -23,7 +23,6 @@ export const Skills = () => {
                     <Skill title={'Axios'} description={''}/>
                     <Skill title={'Material-UI'} description={''}/>
                     <Skill title={'Storybook'} description={''}/>
-                    <Skill title={'Unit-test'} description={''}/>
                     <Skill title={'GIT'} description={''}/>
                     <Skill title={'HTML / CSS'} description={''}/>
                 </div>
