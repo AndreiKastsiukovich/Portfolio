@@ -18,7 +18,6 @@ export const Skills = () => {
                 <div className={style.skills}>
                     <Skill title={'React'} description={''}/>
                     <Skill title={'Redux'} description={''}/>
-                    <Skill title={'TypeScript'} description={''}/>
                     <Skill title={'JavaScript'} description={''}/>
                 </div>
 
