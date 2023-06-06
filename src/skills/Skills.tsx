@@ -19,6 +19,8 @@ export const Skills = () => {
                     <Skill title={'React'} description={''}/>
                     <Skill title={'Redux'} description={''}/>
                     <Skill title={'JavaScript'} description={''}/>
+                    <Skill title={'TypeScript'} description={''}/>
+                    <Skill title={'HTML/CSS'} description={''}/>
                 </div>
 
             </div>
